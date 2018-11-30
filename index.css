@@ -1,9 +1,24 @@
 
-
-body {
-  background: url("/images/world-cuisine.jpg");
+.navbar-inverse {
+  background color: #222;
+  border-color: #080808;
 }
- .{
-   color: green;
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
 
- }
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
